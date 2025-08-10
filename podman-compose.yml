@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  myservice:
+    build:
+      context: .
+      dockerfile: Containerfile
+    image: localhost/my-distrobox # Default name for Distrobox
